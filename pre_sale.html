@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BikeShop</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+		<link rel="stylesheet"href="css/style.css">
+		<link rel="stylesheet" href="dt/css/jquery.dataTables.css" />
+	</head>
+	<body  class="container">	
+		<h1 class="text-center text-primary">Bilke Shop PoS System</h1>
+		<br>
+		<ul class="nav nav-pills">
+			<li class="active"><a href="pre_sale.html">Sale</a></li>
+			<li><a href="history.html">History</a></li>
+		</ul>
+		<div class="thumbnail" style="padding:20px;margin-top: 5px;">
+			<h3 class="text-center text-primary">Sale</h3>
+			<table id="table_id"String class="display"String>			
+			    <thead>			
+			        <tr>			
+			            <th class="text-info">รุ่น</th>			
+			            <th class="text-info">ประเถท</th>	
+			            <th class="text-info">ราคา</th>	
+			            <th class="text-info">จำนวน</th>
+			            <th class="text-info">ซื้อ</th>				
+			        </tr>			
+			    </thead>			
+			    <tbody>			
+			        <tr>			
+			            <td>ฮอนด้า ดำๆ</td>			
+			            <td>2 ล้อ</td>
+			            <td>150,000</td>			
+			            <td>20</td>
+			            <td>
+							<a href="pos.html" class="glyphicon glyphicon-shopping-cart"> ซื้อ</a>
+						</td>			
+			            		
+			        </tr>			
+			       			
+			    </tbody>			
+			</table>
+			
+		</div>
+		
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="dt/js/jquery.dataTables.min.js"></script>
+		<script>			
+		$(document).ready( function () {		
+		    $('#table_id').DataTable();		
+		} );
+		</script>
+	</body>
+</html>

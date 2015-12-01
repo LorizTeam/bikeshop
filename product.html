@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
 		<link rel="stylesheet"href="css/style.css">
+		<link rel="stylesheet" href="fotorama/fotorama.css" />
 	</head>
 	<body  class="container">	
 		<div class=" text-center">
@@ -19,7 +20,7 @@
 			<li class="active"><a href="product_type.html">ประเภทสินค้า</a></li>
 		</ul>
 		<div class="panel panel-default container-fluid">
-			<h2 class="text-danger text-center">Product Type</h2><br>
+			<h2 class="text-danger text-center">Yamaha</h2><br>
 			<ol class="breadcrumb">
 				<li><a href="#">Standard <span class="badge">4</span></a></li>
 				<li><a href="#">Cruiser <span class="badge">4</span></a></li>
@@ -31,23 +32,29 @@
 			</ol>
 			
 			<div class="row">
-				<div class="col-md-3">
-					<a href="product.html" class="thumbnail no-link"  title="More Click">
-						<div  style="width: 100% ;height: 200px; overflow: hidden;" >
-							<img src="img/yamaha_r6.jpg" style="width: 100%"/>
-						</div>
-						<h4 class=" text-center text-info">Yamaha</h4>	
-						<p style="max-height: 40px;overflow: hidden">YZF-R6 is the most advanced production 600cc motorcycle Yamaha</p>				
-					</a>
+				<div class="col-md-6">
+					<div class="fotorama"data-nav="thumbs"data-allowfullscreen="true">
+						<img src="img/bajaj_ktm.jpg" />
+						<img src="img/yamaha_r6.jpg" />
+					</div>
 				</div>
-				<div class="col-md-3">
-					<a href="product.html" class="thumbnail no-link" title="More Click">
-						<div  style="width: 100% ;height: 200px; overflow: hidden;" >
-							<img src="img/bajaj_ktm.jpg" style="width: 100%"/>
-						</div>
-						<h4 class=" text-center text-info">DUKE</h4>	
-						<p style="max-height: 40px;overflow: hidden">Finally officially debuted at Intermot, KTM took the wraps off its 2011 KTM 125 Duke, a single-cylinder street bike geared towards young riders.</p>				
-					</a>
+				<div class="col-md-6">
+					<h3 class="text-info">Yamaha R6</h3>
+					<p>The Yamaha YZF-R6 is without a doubt one of the most wanted motorcycles in its class. And there is no wonder why, as it is fitted with a wide range of modern technologies which help it deliver superior ride and handling performances.
+
+						At its heart sits a liquid-cooled inline 4-cylinder; DOHC, 16 Titanium Valves engine with a displacement of 599 cc.
+						
+						Among the technologies offered by the motorcycles you will find YCC-T, YCC-I, a slipper type clutch and a close ration 6 speed transmission.
+						
+						The motorcycle is built on a Deltabox aluminum frame which is combined with a magnesium subframe and a lightweight swingarm.
+						
+						The wheels are kept in check by a four-way adjustable (preload, high-speed compression, low-speed compression and rebound damping) inverted fork with 41mm tubes and a four-way adjustable (preload, high-speed compression, low-speed compression and rebound damping) piggyback rear shock.
+						
+						Hit the jump for more information on the Yamaha YZF-R6.
+					</p>
+					
+					<h3 class="text-info">ราคา : <small>150,000  บาท</small></h3>	
+					<h3 class="text-info">คงเหลือ: <small>4  คัน</small></h3>				
 				</div>
 				
 				
@@ -59,5 +66,6 @@
 		
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="fotorama/fotorama.js"></script>
 	</body>
 </html>
